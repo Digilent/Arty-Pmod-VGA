@@ -2,7 +2,7 @@
 # If ::create_path global variable is set, the project is created under that path instead of the working dir
 
 # Project specific settings. These must be updated for each project.
-set proj_name "PmodVGA"
+set proj_name "Pmod-VGA"
 
 if {[info exists ::create_path]} {
 	set dest_dir $::create_path
